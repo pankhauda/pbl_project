@@ -51,22 +51,22 @@
             <div class="inline-block px-4 py-1 border border-slate-800 rounded-full text-slate-500 text-[10px] font-mono mb-6 uppercase tracking-widest">ID: 2427030730</div>
             <h1 class="text-6xl md:text-7xl font-extrabold mb-8 uppercase leading-tight"><span class="gradient-text uppercase">LegalBERT Based Multi-Label IPC Section Recommendation Engine</span></h1>
             <p class="text-slate-400 max-w-2xl mx-auto italic text-lg leading-relaxed border-l-2 border-blue-500/30 pl-6 text-left">
-                "To design and evaluate a LegalBERT-based multi-label classification system for automatically recommending relevant IPC sections from unstructured crime descriptions."
+                "To design and evaluate a LegalBERT based multi-label classification system for automatically recommending relevant IPC sections from unstructured crime descriptions."
             </p>
         </section>
 
         <section id="problem" class="grid md:grid-cols-2 gap-12 items-stretch">
             <div class="glass p-10 rounded-[2.5rem] flex flex-col justify-center border-l-4 border-blue-600">
                 <h2 class="text-3xl font-extrabold mb-6">Problem Statement</h2>
-                <p class="text-slate-400 leading-relaxed text-justify">Determining the correct IPC sections from unstructured crime descriptions is a complex and manual process that requires legal expertise. The absence of an automated, context-aware system often leads to delays, inconsistencies, and potential misclassification. This project aims to address this challenge by developing an intelligent legal text classification system for accurate and systematic IPC section recommendation.</p>
+                <p class="text-slate-400 leading-relaxed text-justify">Determining the correct IPC sections from unstructured crime descriptions is a complex and manual process that requires legal expertise. The absence of an automated, context-aware system often leads to delays, inconsistencies, and potential misclassification. This project aims to address this challenge by developing a legal text classification system for accurate and systematic IPC section recommendation.</p>
             </div>
             <div class="space-y-6">
                 <div class="glass p-7 rounded-3xl border-r-4 border-blue-500/50">
                     <h3 class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-2">Literature Review / Market Research</h3>
                     <p class="text-sm text-slate-500 italic"><p class="text-sm text-slate-400 leading-relaxed text-justify">
-<strong>LEGAL-BERT: The Muppets straight out of Law School (Chalkidis et al., 2020)</strong> – Introduced domain-specific LegalBERT, demonstrating improved performance over generic BERT in legal tasks.
+<strong>LEGAL-BERT: The Muppets straight out of Law School (Chalkidis et al., 2020)</strong> – Introduced domain specific LegalBERT, demonstrating improved performance over generic BERT in legal tasks.
 <br><br>
-<strong>EURLEX57K Multi-Label Legal Classification Benchmark</strong> – Established large-scale legal multi-label classification standards using transformer models.
+<strong>EURLEX57K Multi-Label Legal Classification Benchmark</strong> – Established large scale legal multi-label classification standards using transformer models.
 <br><br>
 <strong>InLegalBERT (LAW-AI)</strong> – Domain-adapted transformer model trained on Indian legal corpora, improving statute prediction in Indian context.
 </p></p>
@@ -81,7 +81,7 @@ The approach focuses specifically on the <strong>Indian legal domain with full I
 using real unstructured crime descriptions rather than curated text segments.
 <br><br>
 With detailed metric analysis (Precision, Recall, Micro-F1), the work emphasizes 
-<strong>high-precision legal recommendation</strong> while identifying areas for future recall optimization.</p>
+<strong>high precision legal recommendation</strong> while identifying areas for future recall optimization.</p>
                 </div>
             </div>
         </section>
@@ -101,10 +101,10 @@ With detailed metric analysis (Precision, Recall, Micro-F1), the work emphasizes
                     <i class="fas fa-microchip text-purple-500 text-3xl mb-4"></i>
                     <h3 class="font-bold mb-2 uppercase text-xs tracking-widest">Model / Architecture</h3>
                     <p class="text-sm text-slate-500">
-• LegalBERT fine-tuned for 98-label IPC multi-label classification.<br>
-• Crime descriptions encoded using transformer-based contextual embeddings.<br>
+• LegalBERT fine tuned for 98 label IPC multi-label classification.<br>
+• Crime descriptions encoded using transformer based contextual embeddings.<br>
 • Sigmoid activation layer enables independent multi-label prediction.<br>
-• Evaluated using Micro-F1, Precision, and Recall with cross-dataset testing.
+• Evaluated using Micro F1, Precision and Recall with cross dataset testing.
 </p>
                 </div>
                 <div class="glass p-8 rounded-3xl text-center border-2 border-green-500/20 bg-green-500/5">
@@ -198,4 +198,5 @@ With detailed metric analysis (Precision, Recall, Micro-F1), the work emphasizes
         });
     </script>
 </body>
+
 </html>
