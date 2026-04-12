@@ -94,7 +94,7 @@ With detailed metric analysis (Precision, Recall, Micro-F1), the work emphasizes
                     <h3 class="font-bold mb-2 uppercase text-xs tracking-widest">Dataset / Input</h3>
                     <p class="text-sm text-slate-500">	•	Training Data: ILSI/LSI – 42,835 cases (66,074 samples)<br>
 	•	Labels: 98 IPC sections (multi-label classification)<br>
-	•	Unseen Evaluation: NyayaAnumana (~6,000 cases)<br>
+	•	Unseen Evaluation: IndianBailJudgments (~1,200 cases)<br>
 	•	Processing Pipeline: Text cleaning → LegalBERT tokenization → Multi-label encoding → Train/Validation split</p>
                 </div>
                 <div class="glass p-8 rounded-3xl text-center">
@@ -180,7 +180,7 @@ With detailed metric analysis (Precision, Recall, Micro-F1), the work emphasizes
             data: {
                 labels: ['LegalBERT Baseline', 'LegalBERT IPC Engine'],
                 datasets: [{
-                    data: [64, 66.33],
+                    data: [64, 83.02],
                     backgroundColor: ['#1e293b', '#3b82f6'],
                     borderRadius: 15,
                     barThickness: 50
